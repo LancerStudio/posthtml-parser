@@ -1,6 +1,6 @@
 {
-  "name": "posthtml-parser",
-  "version": "0.7.1",
+  "name": "@lancer/posthtml-parser",
+  "version": "0.7.1-fork.2",
   "description": "Parse HTML/XML to PostHTMLTree",
   "license": "MIT",
   "repository": "posthtml/posthtml-parser",
@@ -38,7 +38,7 @@
     "posthtmltree"
   ],
   "dependencies": {
-    "htmlparser2": "^6.0.0"
+    "@lancer/htmlparser2": "6.1.0-fork.1"
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.4.3",

@@ -1,4 +1,4 @@
-import {Parser, ParserOptions} from 'htmlparser2';
+import {Parser, ParserOptions} from '@lancer/htmlparser2';
 import {Directive, Node, Options, Attributes} from '../types/index.d';
 
 const defaultOptions: ParserOptions = {
