@@ -38,7 +38,7 @@
     "posthtmltree"
   ],
   "dependencies": {
-    "@lancer/htmlparser2": "6.1.0-fork.1"
+    "@lancer/htmlparser2": "6.1.0-fork.2"
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.4.3",

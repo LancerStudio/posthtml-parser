@@ -12,6 +12,7 @@ export type Directive = {
 
 export type Options = {
   directives?: Directive[];
+  customVoidElements?: string[]
 } & ParserOptions;
 
 export type Node = NodeText | NodeTag;

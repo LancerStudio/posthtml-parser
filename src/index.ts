@@ -147,7 +147,13 @@ const parser = (html: string, options: Options = {}): Node[] => {
     }
   }
 
-  const parser = new Parser({
+  class CustomParser extends Parser {
+    isVoidElement(name: string) {
+      return options.customVoidElements?.includes(name) || super.isVoidElement(name)
+    }
+  }
+
+  const parser = new CustomParser({
     onprocessinginstruction,
     oncomment,
     onopentag,
